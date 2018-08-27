@@ -6,8 +6,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Seth Poulsen</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Personal Website of Seth Poulsen">
+  <meta name="author" content="Seth Poulsen">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -21,10 +21,24 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <style>
+    .rotate90 {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+
+    .contactIcon {
+      height:40px;
+      vertical-align: middle;
+    }
+  </style>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 
 </head>
 <body>
@@ -33,10 +47,30 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Seth Poulsen</h4>
-        <p>Hello World! This is the under-construction personal website of Seth Poulsen.</p>
-        <!-- <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p> -->
+      <div class="one-half column" style="margin-top: 10%">
+        <h1>Seth Poulsen</h1>
+        <p>Software Engineer at <a href="https://www.amazon.com/"> Amazon.com</a>, working on
+        Kindle Web Rendering and the <a href="https://play.google.com/store/apps/details?id=com.amazon.klite&hl=en_US">Kindle Lite</a>
+        Anroid app.</p>
+        <div>
+          <a href="https://www.linkedin.com/in/seth-poulsen/">
+            <img class="contactIcon"src="./images/In-2C-128px-TM.png">
+          </a>
+          <a href="https://github.com/SethPoulsen" >
+            <img class="contactIcon" src="./images/GitHub-Mark-120px-plus.png" >
+          </a>
+          <a href="mailto:poulsenseth@yahoo.com">
+            <img class="contactIcon" src="./images/black-email-logo-png-0.png" >
+          </a>
+        </div>
+
+        <!-- <p>
+          email: <code>String.format("%s%s@yahoo.com", lastName, firstName)</code>
+        </p> -->
+      </div>
+      <div class="one-third column" style="margin-top: 15%">
+        <img class="rotate90" src="./images/IMG_4576.JPG" alt="Me and My Wife, Aubrey">
+        <!-- <div>Me and My Wife, Aubrey</div> -->
       </div>
     </div>
   </div>
